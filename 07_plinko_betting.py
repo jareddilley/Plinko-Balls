@@ -375,7 +375,7 @@ def render_text_box():
     
 
 def handle_text_input(event):
-    global print_error, bet, text, text_active, started_typing
+    global print_error, bet, text, text_active, started_typing, money
     if event.type == pygame.MOUSEBUTTONDOWN and len(balls) <= 0:
         # If the user clicked on the input_box rect.
         if input_box.collidepoint(event.pos):
@@ -389,6 +389,7 @@ def handle_text_input(event):
             text_active = False
             try: 
                 bet = float(text.replace('$', ''))
+                if bet > money: bet = money
                 text = f'${bet:.2f}'
                 print_error = False
             except ValueError:
