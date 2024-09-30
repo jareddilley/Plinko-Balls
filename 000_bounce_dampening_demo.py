@@ -6,17 +6,11 @@ import sys
 pygame.init()
 
 # Set up display
-# width, height = 1280, 720
-width, height = 1920, 1080
-ratio = width / 1280
-screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("Ball Bounce Dampening Demo")
-
-# Set the screen resolution
 #width, height = 1280, 720
 width, height = 1920, 1080
 ratio = width / 1280
 screen = pygame.display.set_mode((width, height))
+pygame.display.set_caption("Ball Bounce Dampening Demo")
 font = 'Gill Sans'
 header0 = pygame.font.SysFont(font, int(24 * ratio), True)
 
@@ -28,7 +22,7 @@ CYAN = (0, 255, 255)
 DARK_CYAN = (0, 150, 150)
 WHITE = (255, 255, 255)
 GREEN = (32, 250, 32)
-GRAY = (128, 128, 128)
+GRAY = (128, 128, 128)#
 
 # Constants
 CIRCLE2_RADIUS = int(24 * ratio)  # Radius for Circle 2
