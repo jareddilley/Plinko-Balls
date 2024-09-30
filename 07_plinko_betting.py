@@ -274,7 +274,7 @@ def update_prob_plot(del_balls_x):
 hist_image = update_prob_plot(np.random.normal(8, 2.8, 10000))
 
 # Slider settings
-bias = 1
+bias = 6
 sliders = {
     'rows': {'pos': (50 * ratio, 50 * ratio), 'min': 5, 'max': 16, 'value': pin_rows},
     'balls_at_once': {'pos': (50 * ratio, 115 * ratio), 'min': 1, 'max': 50, 'value': balls_at_once},
@@ -366,6 +366,7 @@ def render_text_box():
     global input_box, text, text_active
     text_box_color = white if text_active else gray
     txt_surface = header1.render(text, True, white)
+    # corners = [True, False, True, False]
     draw_rounded_rect(screen, input_box, text_box_color, 10 * ratio)
     draw_rounded_rect(screen, inner_input_box, background, (10 - inner_gap) * ratio)
     #pygame.draw.rect(screen, text_box_color, input_box, 2)
