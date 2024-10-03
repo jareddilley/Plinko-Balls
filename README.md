@@ -9,3 +9,9 @@ Physics Demos: [demos](demos/) <br>
 Different stages of game: [scripts](main%20scripts/)
 
 # Physics & Mechanics
+y-dampening
+![image](media/y-dampening.gif)
+x-dampening
+![image](media/x-dampening.gif)
+x-bias
+![image](media/x-biasing.gif)
