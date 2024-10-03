@@ -4,8 +4,8 @@ Pygame recreation of Stak'es Plinko gambling game. I built the game with the Pyg
 [YouTube Video](https://www.youtube.com/watch?v=E59LsTyOdmo)
 
 # Scripts
-Main game: plinko_balls.py
-Physics Demos: demos
-All main scipts in videos: demos
+Main game: [View the script](plinko_balls.py)
+Physics Demos: [View the script](demos/)
+All main scipts in videos: [View the script]("main scripts/")
 
 # Physics & Mechanics
