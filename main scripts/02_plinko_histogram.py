@@ -1,3 +1,14 @@
+'''
+v2 basic plinko game with drop location plotting
+Inputs -
+    drop ball - click green "Drop" button or click SPACE
+    reset board - press R
+    change number of pin rows - click on "Rows" slider to change (no grab and drag)
+    change ball radius - click on "Ball Size" slider to change (no grab and drag)
+    change number of balls at once - click on "Ball(s) at Once" slider to change (no grab and drag)
+Author - Jared Dilley
+GitHub - https://github.com/jareddilley
+'''
 import pygame
 import sys
 import io
@@ -6,9 +17,6 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 import numpy as np
 import os
-
-# Set the position of the window to the top-left corner
-os.environ['SDL_VIDEO_WINDOW_POS'] = '0,0'
 
 # Initialize Pygame
 pygame.init()
