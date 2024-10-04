@@ -6,7 +6,7 @@ Inputs -
     change number of pin rows - click on "Rows" slider to change (no grab and drag)
     change number of balls at once - click on "Ball(s) at Once" slider to change (no grab and drag)
     change x-center bias - click on "Center Bias" slider to change (no grab and drag)
-    change bet - click text input, enter digit only value, hit ENTER (Defaults max bet if value to large)
+    change bet - click text input, enter digit only value, hit ENTER (Defaults max bet if value to large) (board must be empty to enter)
 Author - Jared Dilley
 GitHub - https://github.com/jareddilley
 '''
