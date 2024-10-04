@@ -1,10 +1,16 @@
+'''
+v0 physics demo for ball y-dampening, vector visualizer
+Inputs -
+    drop ball - click SPACE
+    reset board - press R
+    change y-dampening - SCROLL WHEEL only
+Author - Jared Dilley
+GitHub - https://github.com/jareddilley
+'''
 import pygame
 import math
 import sys
 import os
-
-# Set the position of the window to the top-left corner
-os.environ['SDL_VIDEO_WINDOW_POS'] = '0,0'
 
 # Initialize Pygame
 pygame.init()

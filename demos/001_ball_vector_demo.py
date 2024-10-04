@@ -1,3 +1,13 @@
+'''
+v1 physics demo for ball x-dampening and x biasing
+Inputs -
+    move ball - move cursor
+    show bounce vector - touch ball to pin
+    show x and y vetors - press SPACE (must also be touching pin)
+    change x-dampening - SCROLL WHEEL only
+Author - Jared Dilley
+GitHub - https://github.com/jareddilley
+'''
 import pygame
 import math
 import sys
