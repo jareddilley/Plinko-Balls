@@ -6,7 +6,7 @@ Pygame is a recreation of the Stak'es Plinko gambling game. I built the game wit
 # Scripts
 Main game: [plinko_balls.py](plinko_balls.py)
 <br>Physics Demos: [demos](demos/)
-<br>Different stages of game: [scripts](main%20scripts/)
+<br>Different stages of game: [scripts](scripts/)
 
 # Physics & Mechanics
 Dampening in the y-direction does two things. It gives the ball gravity physics and it reduces the randomness of the path of the ball. The more the ball can bounce the more the ball can go where we don't want it to.
