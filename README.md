@@ -1,7 +1,7 @@
 # Plinko-Balls
 
 Python: 3.12.0, pygame-ce: 2.5.1, numpy: 2.2.3, matplotlib: 3.10.0
-<br><b>How to run<b>
+<br><br><b>How to run
 <br>install python 3.12.0
 <br>install packages: pip install pygame-ce numpy matplotlib
 <br>run in folder: python plinko_balls.py
