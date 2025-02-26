@@ -1,4 +1,5 @@
 # Plinko-Balls
+[play online](https://jareddilley.itch.io/plinko)
 
 Python: 3.12.0, pygame-ce: 2.5.1, numpy: 2.2.3, matplotlib: 3.10.0
 <br><br><b>How to run</b>
