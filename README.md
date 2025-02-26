@@ -1,7 +1,9 @@
 # Plinko-Balls
 
-pygame-ce: 2.5.1, 
-Python: 3.12
+Python: 3.12,
+pygame-ce: 2.5.1,
+numpy: 2.2.3,
+matplotlib: 3.10.0
 
 [YouTube Video](https://www.youtube.com/watch?v=E59LsTyOdmo) <br>
 Pygame is a recreation of the Stak'es Plinko gambling game. I built the game with the Pygame Python module to break down the functionality and mechanics of the game and possibly wrinkle your and fellow gamblers' brains. The gambler drops balls in the hopes that they hit one of the high multipliers for a high return. The house, however, has set it up so that most of the balls go to the middle, and the gambler loses money.
