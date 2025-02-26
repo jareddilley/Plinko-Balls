@@ -10,14 +10,11 @@ Inputs -
 Author - Jared Dilley
 GitHub - https://github.com/jareddilley
 '''
-import sys
-import io
-import random
-import pygame
+import sys, io, random
+import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-import numpy as np
-import os
+import pygame
 
 # Initialize Pygame
 pygame.init()
@@ -276,7 +273,7 @@ def update_prob_plot(del_balls_x):
     else:
         plt_gradient_new = plt_gradient[:8] + plt_gradient[9:]
         plt_gradient_new = plt_gradient_new[8 - pin_rows//2 - 1:]
-    custom_hist(del_balls_x, bins, color_scheme=plt_gradient_new, edgecolor=plt_background)
+    custom_hist(del_balls_x, bins, color_scheme=plt_gradient_new)
     # Save to a BytesIO object instead of disk
     buf = io.BytesIO()
     canvas.print_png(buf)
