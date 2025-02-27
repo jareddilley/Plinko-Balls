@@ -1,5 +1,5 @@
 # Plinko-Balls
-[play online](https://jareddilley.itch.io/plinko)
+[Play Online](https://jareddilley.itch.io/plinko) or [Watch YouTube Video](https://www.youtube.com/watch?v=E59LsTyOdmo)
 <br><br><b>Or run locally -</b>
 <br> - download [plinko_balls.py](plinko_balls.py) and [sounds](sounds)
 <br> - install [Python 3.12.0](https://www.python.org/downloads/release/python-3120/)
@@ -8,7 +8,6 @@
 
 Python: 3.12.0, pygame-ce: 2.5.1, numpy: 2.2.3, matplotlib: 3.10.0
 
-[YouTube Video](https://www.youtube.com/watch?v=E59LsTyOdmo) <br>
 This pygame is a recreation of the Stake's Plinko gambling game. I built the game with the Pygame Python module to break down the functionality and mechanics of the game and possibly wrinkle your and fellow gamblers' brains. The gambler drops balls in the hopes that they hit one of the high multipliers for a high return. The house, however, has set it up so that most of the balls go to the middle, and the gambler loses money.
 ![image](media/full-game.gif)
 
