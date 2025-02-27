@@ -2,7 +2,7 @@
 [play online](https://jareddilley.itch.io/plinko)
 
 Python: 3.12.0, pygame-ce: 2.5.1, numpy: 2.2.3, matplotlib: 3.10.0
-<br><br><b>How to run</b>
+<br><br><b>Or run locally -</b>
 <br> - download [plinko_balls.py](plinko_balls.py) and [sounds](sounds)
 <br> - install [Python 3.12.0](https://www.python.org/downloads/release/python-3120/)
 <br> - install packages (cmd): pip install pygame-ce numpy matplotlib
